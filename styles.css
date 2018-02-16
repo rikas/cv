@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+}
+
+h1 {
+  font-family: 'Alegreya', serif;
+  font-weight: 700;
+  line-height: 43px;
+  font-size: 43px;
+  margin: 0;
+}
+
+h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 21px;
+  line-height: 23px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 1.17em;
+  margin-top: 18px;
+  margin-bottom: 0px;
+}
+
+h3 + .timespan {
+  margin-bottom: 8px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0 0 20px 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+a, a:visited {
+  color: rgba(37, 107, 236, 1);
+}
+
+a:hover {
+  color: rgba(37, 107, 236, .8);
+}
+
+aside > ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+aside > ul > li {
+  line-height: 20px;
+}
+
+.timespan {
+  opacity: .6;
+  margin: 0 0 8px 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 40px;
+  grid-template: "empty head"
+                 "profile main"
+                 / 210px auto;
+}
+
+.photo {
+  width: 100%;
+}
+
+.header {
+  grid-area: head;
+}
+
+.profile {
+  grid-area: profile;
+}
+
+.timeline {
+  grid-area: main;
+}
