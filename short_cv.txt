@@ -1,0 +1,4 @@
+Ricardo is a senior web developer with over 10 years of experience on Ruby and Rails. He has been
+working in the startup scene since 2008, being a former founder and CTO. He's also interested in
+the product side of the projects he's working at. Ricardo is also a lead teacher at Le Wagon, a
+leading coding bootcamp.
