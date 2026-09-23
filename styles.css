@@ -101,3 +101,21 @@ aside > ul > li {
 .timeline {
   grid-area: main;
 }
+
+@media print {
+  @page {
+    margin: 0.5in;
+  }
+
+  .grid-container {
+    grid-gap: 22px;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin-top: 13px;
+  }
+}
