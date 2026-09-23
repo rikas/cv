@@ -78,6 +78,8 @@ aside > ul > li {
 }
 
 .grid-container {
+  min-height: 100dvh;
+  justify-content: center;
   display: grid;
   grid-gap: 30px;
   grid-template:
@@ -92,6 +94,7 @@ aside > ul > li {
 
 .header {
   grid-area: head;
+  align-content: end;
 }
 
 .profile {
